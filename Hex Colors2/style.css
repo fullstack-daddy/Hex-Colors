@@ -1,0 +1,27 @@
+#u {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  /*set to a negative number 1/2 of your height*/
+  margin-left: -25px;
+  /*set to a negative number 1/2 of your width*/
+}
+
+#grad1 {
+  height: 757px;
+  background-image: -webkit-gradient(linear, left top, right top, from(pink), color-stop(salmon), to(orange));
+  background-image: linear-gradient(to right, pink, salmon, orange);
+}
+
+h4 {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  margin-top: -25px;
+  /*set to a negative number 1/2 of your height*/
+  margin-left: -25px;
+  /*set to a negative number 1/2 of your width*/
+  font-family: Bodoni MT;
+}
+/*# sourceMappingURL=style.css.map */
